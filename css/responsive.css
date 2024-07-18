@@ -1,0 +1,18 @@
+/* Tablet (768px) */
+.container {
+    width: 100%;
+    max-width: 1140px;
+}
+
+
+/* Mobile (576px) */
+@media screen and (max-width:576px) {
+    .row {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+}
