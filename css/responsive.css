@@ -15,4 +15,15 @@
     .row .col {
         width: 100%;
     }
+
+    .steps,
+    .why-us,
+    .row .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        padding: 3rem 0;
+        background-color: #222;
+    }
 }
